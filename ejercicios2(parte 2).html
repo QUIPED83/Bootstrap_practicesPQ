@@ -1,0 +1,122 @@
+<html>
+    <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        <style>
+          div
+              {border-style: solid;
+                  border-color: white;
+              }
+              /* DISEÑO DEL HEADER*/ 
+                .miestiloheader {
+                background-color: darkseagreen;
+                }
+            @media (max-width: 768px) {
+                .miestiloheader {
+                background-color: skyblue;
+                }
+            }
+            @media (max-width: 576px) {
+                .miestiloheader {
+                background-color: burlywood;
+                    text-align: center;
+                }
+            }
+             /*DISEÑO DEL NUMERO 3*/ 
+            .miestiloN3 {
+                background-color: red;
+                }
+            @media (max-width: 768px) {
+                .miestiloN3 {
+                background-color: greenyellow;
+                }
+            }
+            @media (max-width: 576px) {
+                .miestiloN3 {
+                background-color: red;
+                    text-align: right;
+                }
+            }
+            @media (min-width: 576px) {
+                .miestiloN3 {
+                text-align: center;
+                }
+            }
+            /*DISEÑO DEL NUMERO 2*/
+            .miestiloN2 {
+                background-color: red;
+                }
+            @media (max-width: 576px) {
+                .miestiloN2 {
+                background-color: skyblue;
+                    text-align: center;
+                }
+                
+            }
+            @media (min-width: 576px) and (max-width:768px){
+                .miestiloN2 {
+                    text-align: right;
+                }
+                
+            }
+            @media (min-width: 768px) {
+                .miestiloN2 {
+                    text-align: center;
+                }
+                
+            }
+            /*DISEÑO DEL NUMERO 1*/
+            .miestiloN1 {
+                
+                }
+            @media (min-width: 768px){
+                .miestiloN1 {
+                text-align: center;
+                }
+                
+            }
+            /*DISEÑO DEL FOOTER 1*/
+            .miestiloF1 {
+                text-align: center;
+                }
+            @media (min-width: 768px){
+                .miestiloF1 {
+                text-align: right;
+                }
+                
+            }
+            /*DISEÑO DEL FOOTER 2*/
+            .miestiloF2 {
+                text-align: center;
+                }
+            @media (min-width: 768px){
+                .miestiloF2 {
+                text-align: left;
+                }
+                
+            }
+            
+          </style>
+    </head>
+
+<body>
+<div class="container">
+    
+<div class="row">
+    <div class="col-sm-12 miestiloheader">HEADER</div>  
+</div>
+    
+<div class="row" style="height: 200px">
+    <div class="col-md-4 col-sm-6 miestiloN1" style="background-color: red"><h1>1</h1></div>
+    <div class="col-md-4 col-sm-6 miestiloN2"><h1>2</h1></div>  
+    <div class="col-md-4 col-sm-12 miestiloN3"><h1>3</h1></div>  
+</div>
+    
+<div class="row">
+    <div class="col-md-6 miestiloF1" style="background-color: yellow">Footer 1</div>
+    <div class="col-md-6 miestiloF2" style="background-color: yellow">Footer 2</div>   
+</div>
+    
+</div>
+</body>
+</html>
